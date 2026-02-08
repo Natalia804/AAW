@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NSDNM2V7');</script>
+    <!-- End Google Tag Manager -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>SUPER TAJNA OFERTA 2002™ — 1300 zł → 99 zł</title>
+  <meta name="description" content="Ironiczna retro LP (DEMO do GA4/GTM): hero, produkty, szczegóły, wideo, cechy, opinie, formularz + 1 unikalny sticker na sekcję." />
+
+  <style>
+    body{ margin:0; font-family: Verdana, Tahoma, sans-serif; background:#00d9ff; color:#000; }
+    a{ color:#0000ee; } a:visited{ color:#551a8b; }
+    .wrap{ max-width:980px; margin:0 auto; padding:10px; }
+
+    .frame{ border:6px ridge #ff00ff; background:#fff; }
+    .top{ text-align:center; padding:10px; background:linear-gradient(90deg,#ffff00,#ff00ff,#00ff00,#00d9ff); border-bottom:6px ridge #00ff00; }
+    .logo{ font-size:28px; font-weight:900; letter-spacing:2px; text-shadow:2px 2px 0 #fff, 4px 4px 0 #ff00ff; }
+    .sub{ display:inline-block; margin-top:6px; font-size:12px; padding:4px 8px; border:2px solid #000; background:#fff; }
+    marquee{ background:#000; color:#fff; padding:6px; border-top:3px solid #ff0000; border-bottom:3px solid #ff0000; font-weight:900; }
+
+    .content{ padding:12px; }
+    .section{
+      border:4px double #000;
+      background:#f9f9f9;
+      padding:10px;
+      margin:12px 0;
+      position:relative; /* pod sticker */
+      overflow: visible;
+    }
+    .title{ font-size:18px; font-weight:900; background:#0000ff; color:#fff; padding:6px 8px; border:4px groove #fff; margin-bottom:8px; }
+
+    table{ width:100%; border-collapse:collapse; }
+    td{ border:2px solid #000; vertical-align:top; padding:10px; }
+    .small{ font-size:12px; line-height:1.5; }
+
+    .cta{ display:inline-block; padding:10px 14px; font-weight:900; border:4px outset #000; background:#ff0000; color:#fff; text-decoration:none; text-transform:uppercase; }
+    .cta:active{ border-style: inset; }
+    .btn{ display:inline-block; padding:8px 12px; border:3px outset #000; background:#00ff00; color:#000; font-weight:900; text-decoration:none; margin-right:6px; margin-top:6px; }
+    .btn:active{ border-style: inset; }
+
+    .pricebox{ background:#ffff00; border:6px ridge #ff0000; padding:10px; text-align:center; }
+    .oldprice{ font-size:18px; text-decoration:line-through; color:#666; }
+    .newprice{ font-size:34px; color:#ff0000; font-weight:900; }
+    .countdown{ font-family:"Courier New", monospace; background:#000; color:#0f0; padding:8px; border:2px solid #0f0; display:inline-block; margin-top:6px; }
+
+    .blink{ animation: blink 1s steps(2, start) infinite; }
+    @keyframes blink { to { visibility:hidden; } }
+
+    /* --- Stickers (1 per sekcja) --- */
+    .sticker{
+      position:absolute;
+      right:-10px;
+      top:-12px;
+      display:none; /* pokazujemy przy scrollu */
+      z-index: 5;
+      user-select:none;
+      transform: rotate(8deg);
+    }
+    .sticker.left{ right:auto; left:-10px; transform: rotate(-7deg); }
+    .sticker.low{ top:auto; bottom:-12px; }
+    .sticker .burst{
+      width: 110px;
+      height: 110px;
+      border: 3px solid #000;
+      clip-path: polygon(
+        50% 0%, 60% 14%, 77% 8%, 75% 26%, 92% 25%, 84% 38%,
+        100% 50%, 84% 62%, 92% 75%, 75% 74%, 77% 92%, 60% 86%,
+        50% 100%, 40% 86%, 23% 92%, 25% 74%, 8% 75%, 16% 62%,
+        0% 50%, 16% 38%, 8% 25%, 25% 26%, 23% 8%, 40% 14%
+      );
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding: 10px;
+      font-weight: 900;
+      color:#fff;
+      text-shadow: 2px 2px 0 #000;
+      box-shadow: 6px 6px 0 #000;
+      line-height: 1.05;
+    }
+
+    /* różne kolory stickerów */
+    .s1 .burst{ background:#ff00ff; }
+    .s2 .burst{ background:#ff0000; }
+    .s3 .burst{ background:#0000ff; }
+    .s4 .burst{ background:#00aa00; }
+    .s5 .burst{ background:#ff9900; color:#000; text-shadow: 2px 2px 0 #fff; }
+    .s6 .burst{ background:#000; }
+    .s7 .burst{ background:#7c3aed; } /* fiolet */
+    .s8 .burst{ background:#00d9ff; color:#000; text-shadow: 2px 2px 0 #fff; }
+
+    .disclaimer{ background:#fff3cd; border:2px solid #856404; padding:10px; font-size:12px; line-height:1.5; }
+    .footer{ text-align:center; padding:10px; background:#000; color:#fff; border-top:6px ridge #ff00ff; }
+
+    .counter{ font-family:"Courier New", monospace; background:#fff; border:2px solid #000; padding:6px 8px; display:inline-block; margin-top:8px; }
+    .details{ scroll-margin-top: 20px; }
+
+    input, textarea{ width:100%; padding:8px; border:2px solid #000; font-family: inherit; font-size: 14px; }
+    textarea{ min-height:90px; }
+    .err{ display:none; color:#b00020; font-size:12px; }
+  </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSDNM2V7"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  <div class="wrap frame" id="top">
+    <div class="top">
+      <div class="logo">SUPER TAJNA STRONA 888</div>
+      <div class="counter">Wizytujący: <span id="visitors">000000</span></div>
+    </div>
+
+    <marquee scrollamount="10">
+      🔥 MEGA SUPER PROMOCJA 🔥 1300 zł → 99 zł • KOŃCZY SIĘ ZA CHWILĘ • kliknij dla nauki
+    </marquee>
+
+    <div class="content">
+
+      <!-- HERO -->
+      <div class="section" id="hero">
+        <div class="sticker s1"><div class="burst">ZERO<br>ŚCIEMY*</div></div>
+
+        <div class="title">1) Lead + “hero” + CTA + promo</div>
+
+        <table>
+          <tr>
+            <td style="width:55%;">
+              <p><b>Uwaga:</b> to strona edukacyjna. Ironia i retro są celowe.</p>
+
+              <div class="pricebox">
+                <div class="small"><b class="blink">MEGA SUPER PROMOCJA</b></div>
+                <div class="oldprice">1300 zł</div>
+                <div class="newprice">99 zł</div>
+                <div class="small">* licznik to symulacja do testów GA4/GTM</div>
+                <div class="countdown" id="countdown">Kończy się za: --:--:--</div>
+              </div>
+
+              <a class="cta"
+                 id="cta-main"
+                 data-event="cta_click"
+                 data-cta-location="hero"
+                 href="#form">KUP TERAZ</a>
+
+              <a class="btn"
+                 data-event="to_form_click"
+                 data-button-id="hero_secondary"
+                 data-button-location="hero"
+                 href="#form">ODBIERZ OFERTĘ</a>
+
+              <p class="small">* “zero ściemy” = zero ściemy w eventach 😄</p>
+            </td>
+
+            <td>
+              <div class="section" style="margin:0;background:#eaffff;">
+                
+                <b>MINI KARUZELA (retro):</b>
+                <div id="retro-slide" style="margin-top:8px;border:2px solid #000;padding:10px;background:#fff;">
+                  <b>SLIDE 1:</b> “Nie uwierzysz”
+                </div>
+                <div style="margin-top:8px;">
+                  <a href="#" class="btn" id="slide-prev" data-event="carousel_click" data-carousel-action="prev">« PREV</a>
+                  <a href="#" class="btn" id="slide-next" data-event="carousel_click" data-carousel-action="next">NEXT »</a>
+                </div>
+                <div class="small">Opcjonalnie: mierz <i>carousel_click</i>.</div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- PRODUCTS -->
+      <div class="section" id="products">
+        <div class="sticker s3"><div class="burst">HIT<br>FORUM</div></div>
+
+        <div class="title">2) Produkty / kafle</div>
+        <table>
+          <tr>
+            <td>
+              <b>Pakiet BASIC</b>
+              <p class="small">Dla tych, co chcą “tylko kliknąć”.</p>
+
+              <a class="btn"
+                 href="https://example.com/pakiet-basic"
+                 target="_blank" rel="noopener"
+                 data-event="product_details_click"
+                 data-product="basic"
+                 data-details-anchor="#details-basic">SZCZEGÓŁY</a>
+
+              <a class="btn"
+                 href="#form"
+                 data-event="to_form_click"
+                 data-button-id="buy_basic"
+                 data-button-location="products"
+                 data-product="basic">KUP TERAZ</a>
+            </td>
+
+            <td>
+              <b>Pakiet PRO</b>
+              <p class="small">Dla tych, co “oglądają wideo do końca”.</p>
+
+              <a class="btn"
+                 href="https://example.com/pakiet-pro"
+                 target="_blank" rel="noopener"
+                 data-event="product_details_click"
+                 data-product="pro"
+                 data-details-anchor="#details-pro">SZCZEGÓŁY</a>
+
+              <a class="btn"
+                 href="#form"
+                 data-event="to_form_click"
+                 data-button-id="buy_pro"
+                 data-button-location="products"
+                 data-product="pro">KUP TERAZ</a>
+            </td>
+          </tr>
+        </table>
+
+        <a class="cta"
+           href="#form"
+           data-event="to_form_click"
+           data-button-id="products_bottom"
+           data-button-location="products">CHCĘ 99 ZŁ</a>
+      </div>
+
+      <!-- DETAILS -->
+      <div class="section" id="details">
+
+        <div class="title">3) Szczegóły (anchor)</div>
+        <table>
+          <tr>
+            <td class="details" id="details-basic">
+              <b>BASIC — szczegóły</b>
+              <ul>
+                <li>outbound “Szczegóły”</li>
+                <li>CTA → form</li>
+                <li>scroll depth</li>
+              </ul>
+              <a class="btn"
+                 href="#form"
+                 data-event="to_form_click"
+                 data-button-id="details_basic"
+                 data-button-location="details"
+                 data-product="basic">BIORĘ BASIC</a>
+            </td>
+
+            <td class="details" id="details-pro">
+              <b>PRO — szczegóły</b>
+              <ul>
+                <li>wideo start/progress/complete</li>
+                <li>form start/error/submit</li>
+                <li>parametry dla przycisków</li>
+              </ul>
+              <a class="btn"
+                 href="#form"
+                 data-event="to_form_click"
+                 data-button-id="details_pro"
+                 data-button-location="details"
+                 data-product="pro">BIORĘ PRO</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- VIDEO -->
+      <div class="section" id="video">
+        <div class="sticker s5"><div class="burst">WIDEO<br>CO<br>WSZYSTKO<br>“WYJAŚNIA”</div></div>
+
+        <div class="title">4) Wideo YouTube</div>
+        <div class="small">Tu potem w GA4 włączysz Enhanced Measurement (video events).</div>
+
+        <div style="border:2px solid #000;padding:8px;background:#fff;margin-top:8px;">
+          <div style="position:relative;padding-top:56.25%;">
+            <iframe
+              id="yt-embed"
+              style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <a class="cta"
+           href="#form"
+           data-event="to_form_click"
+           data-button-id="video_cta"
+           data-button-location="video">OK, CHCĘ OFERTĘ</a>
+      </div>
+
+      <!-- FEATURES -->
+      <div class="section" id="features">
+
+        <div class="title">5) Lista cech</div>
+        <table>
+          <tr>
+            <td>
+              <ul>
+                <li>unikalne button_id</li>
+                <li>ID CTA: cta-main</li>
+                <li>anchor do #form</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>walidacja (błędy)</li>
+                <li>outbound “Szczegóły”</li>
+                <li>gotowe pod A/B CTA</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+
+        <a class="btn"
+           href="#form"
+           data-event="to_form_click"
+           data-button-id="features_cta"
+           data-button-location="features">CHCĘ OFERTĘ</a>
+      </div>
+
+      <!-- TESTIMONIALS -->
+      <div class="section" id="testimonials">
+        <div class="sticker s7"><div class="burst">OPINIE<br>100%<br>PRAWDZIWE*</div></div>
+
+        <div class="title">6) Cytaty</div>
+        <table>
+          <tr>
+            <td>„Najbardziej mi się podoba, że CTA ma parametry.”<br><span class="small"><b>Magda</b></span></td>
+            <td>„Przewijam do 75% i czuję się elitarnie.”<br><span class="small"><b>Paweł</b></span></td>
+            <td>„Wideo do 25% i już jestem w audience.”<br><span class="small"><b>Ola</b></span></td>
+          </tr>
+        </table>
+
+        <a class="cta"
+           href="#form"
+           data-event="to_form_click"
+           data-button-id="testimonials_cta"
+           data-button-location="testimonials">DOŁĄCZAM</a>
+
+        <p class="small">*Prawdziwe w sensie: istnieją jako tekst. Parodia.</p>
+      </div>
+
+      <!-- FORM -->
+      <div class="section" id="form">
+
+        <div class="title">7) Formularz (3 pola)</div>
+        <table>
+          <tr>
+            <td style="width:55%;">
+              <form id="lead-form" novalidate>
+                <p>
+                  <label>Imię i nazwisko</label><br>
+                  <input id="name" name="name" type="text" autocomplete="name" required>
+                  <span class="err" data-err-for="name">Podaj imię i nazwisko.</span>
+                </p>
+
+                <p>
+                  <label>Telefon</label><br>
+                  <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+                  <span class="err" data-err-for="phone">Podaj telefon (min. 6 cyfr).</span>
+                </p>
+
+                <p>
+                  <label>Treść</label><br>
+                  <textarea id="msg" name="msg" required></textarea>
+                  <span class="err" data-err-for="msg">Napisz krótką wiadomość.</span>
+                </p>
+
+                <button class="cta"
+                        id="submit-btn"
+                        type="submit"
+                        data-event="form_submit">WYŚLIJ</button>
+
+                <p class="small">* Symulacja wysyłki (projekt). Eventy zrobimy w GTM.</p>
+              </form>
+
+              <p class="small">
+                <a class="btn"
+                   href="#top"
+                   data-event="to_form_click"
+                   data-button-id="back_to_top"
+                   data-button-location="form">WRÓĆ NA GÓRĘ</a>
+              </p>
+            </td>
+
+            <td>
+              <div class="disclaimer">
+                <b>Klauzule informacyjne:</b><br>
+                Administratorem danych osobowych jest <b>Twoja Nazwa / Firma</b>.
+                Dane przetwarzamy w celu kontaktu w sprawie oferty (projekt edukacyjny).
+                Masz prawo dostępu do danych, ich sprostowania, usunięcia oraz sprzeciwu.<br><br>
+                Kontakt: <b>kontakt@twojadomena.pl</b>
+              </div>
+              <p class="small"><b>PS:</b> “promocja” to scenografia. W raporcie możesz opisać wpływ “licznika” na CR 😉</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      © <span id="y"></span> SUPER TAJNA STRONA 888<a href="#form" style="color:#0f0;">kontakt</a>
+    </div>
+  </div>
+
+ 
+  <div id="consent-banner"
+     style="
+       position:fixed;
+       bottom:0; left:0; right:0;
+       background:#000;
+       color:#fff;
+       padding:14px;
+       font-family:Arial,sans-serif;
+       z-index:9999;
+       display:none;">
+  <div style="max-width:960px;margin:0 auto;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;">
+    <span>
+      Ta strona używa cookies w celach analitycznych (projekt edukacyjny).
+    </span>
+    <div>
+      <button id="consent-accept">Akceptuję</button>
+      <button id="consent-reject">Odrzucam</button>
+    </div>
+  </div>
+</div>
+
+ <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    // visitor counter
+    const VKEY = 'retro_visitors_demo';
+    let v = parseInt(localStorage.getItem(VKEY) || '0', 10);
+    if (!v) v = 100000 + Math.floor(Math.random() * 900000);
+    v += Math.floor(Math.random() * 3);
+    localStorage.setItem(VKEY, String(v));
+    document.getElementById('visitors').textContent = String(v).padStart(6,'0');
+
+    // mini karuzela
+    const slideEl = document.getElementById('retro-slide');
+    const slides = [
+      'SLIDE 1: “Nie uwierzysz”',
+      'SLIDE 2: “Zobacz dowody”',
+      'SLIDE 3: “Zostaw kontakt”'
+    ];
+    let s = 0;
+    const renderSlide = () => slideEl.innerHTML = '<b>' + slides[s].split(':')[0] + ':</b>' + slides[s].slice(slides[s].indexOf(':')+1);
+    renderSlide();
+    document.getElementById('slide-prev').addEventListener('click', (e) => { e.preventDefault(); s = (s - 1 + slides.length) % slides.length; renderSlide(); });
+    document.getElementById('slide-next').addEventListener('click', (e) => { e.preventDefault(); s = (s + 1) % slides.length; renderSlide(); });
+
+    // “Szczegóły” = link zewnętrzny + scroll do anchor
+    document.querySelectorAll('a[data-event="product_details_click"]').forEach(a => {
+      a.addEventListener('click', () => {
+        const anchor = a.getAttribute('data-details-anchor');
+        if (anchor) setTimeout(() => document.querySelector(anchor)?.scrollIntoView({ behavior:'smooth', block:'start' }), 50);
+      });
+    });
+
+    // countdown (symulacja): 12 minut
+    const KEY = 'promo_demo_ends_at_v3';
+    const now = Date.now();
+    let endsAt = parseInt(localStorage.getItem(KEY) || '0', 10);
+    if (!endsAt || endsAt < now) { endsAt = now + 12*60*1000; localStorage.setItem(KEY, String(endsAt)); }
+    const cd = document.getElementById('countdown');
+    const pad = (n) => String(n).padStart(2,'0');
+    const tick = () => {
+      const left = Math.max(0, endsAt - Date.now());
+      const ss = Math.floor(left/1000);
+      const h = Math.floor(ss/3600);
+      const m = Math.floor((ss%3600)/60);
+      const s2 = ss%60;
+      cd.textContent = `Kończy się za: ${pad(h)}:${pad(m)}:${pad(s2)}`;
+      if (left === 0) cd.textContent = 'PROMO “ZAKOŃCZONE” (symulacja) — nadal możesz wysłać formularz';
+    };
+    tick(); setInterval(tick, 500);
+
+    // formularz walidacja
+    const form = document.getElementById('lead-form');
+    const fields = ['name','phone','msg'].map(id => document.getElementById(id));
+    const showErr = (id, show) => { const el = document.querySelector(`[data-err-for="${id}"]`); if (el) el.style.display = show ? 'inline' : 'none'; };
+    const validate = () => {
+      let ok = true;
+      const name = document.getElementById('name').value.trim();
+      const phone = document.getElementById('phone').value.replace(/\D/g,'');
+      const msg = document.getElementById('msg').value.trim();
+      if (name.length < 3) { ok=false; showErr('name', true); } else showErr('name', false);
+      if (phone.length < 6) { ok=false; showErr('phone', true); } else showErr('phone', false);
+      if (msg.length < 5) { ok=false; showErr('msg', true); } else showErr('msg', false);
+      return ok;
+    };
+    let formStarted = false;
+    fields.forEach(f => f.addEventListener('focus', () => { if (!formStarted) { formStarted = true; /* GTM: form_start */ } }));
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const ok = validate();
+      if (ok) { alert('Dziękujemy! (Symulacja wysyłki do projektu)'); form.reset(); ['name','phone','msg'].forEach(id => showErr(id, false)); }
+    });
+
+    // 1 sticker na sekcję: pokazuj gdy sekcja jest w widoku
+    const sections = document.querySelectorAll('.section');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const st = entry.target.querySelector('.sticker');
+          if (st) st.style.display = 'block';
+        }
+      });
+    }, { threshold: 0.35 });
+    sections.forEach(s => io.observe(s));
+
+    (function(){
+  const KEY = 'consent_demo_v1';
+  const banner = document.getElementById('consent-banner');
+
+  if (!localStorage.getItem(KEY)) {
+    banner.style.display = 'block';
+  }
+
+  document.getElementById('consent-accept').onclick = function(){
+    localStorage.setItem(KEY, 'granted');
+    banner.style.display = 'none';
+
+    dataLayer.push({
+      event: 'consent_update',
+      ad_storage: 'granted',
+      analytics_storage: 'granted'
+    });
+  };
+
+  document.getElementById('consent-reject').onclick = function(){
+    localStorage.setItem(KEY, 'denied');
+    banner.style.display = 'none';
+
+    dataLayer.push({
+      event: 'consent_update',
+      ad_storage: 'denied',
+      analytics_storage: 'denied'
+    });
+  };
+})();
+  </script>
+
+</body>
+</html>
